@@ -1,6 +1,6 @@
 import { Header } from '../../components/header/header'
 import { Summary } from '../../components/summary/summary'
-import { TableTransactions } from './components/tableTransaction'
+import { TableTransactions } from './components/tableTransaction/tableTransaction'
 
 export function Transactions() {
   return (
