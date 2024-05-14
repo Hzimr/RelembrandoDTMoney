@@ -1,3 +1,4 @@
+import { SearchForm } from '../searchForm/searchForm'
 import {
   PriceHighlight,
   TransactionsContainer,
@@ -7,6 +8,7 @@ import {
 export function TableTransactions() {
   return (
     <TransactionsContainer>
+      <SearchForm />
       <TransactionsTable>
         <tbody>
           <tr>
